@@ -24,7 +24,7 @@ public class PeticionController {
         return peticionService.getPeticion(id);
     }
 
-    @GetMapping("/getPeticionByAmbito")
+    /*@GetMapping("/getPeticionByAmbito")
     public @ResponseBody Peticion getPeticionByAmbito(@RequestParam(name = "ambito") String ambito) {
         return getPeticionByAmbito(ambito);
     }
@@ -37,7 +37,7 @@ public class PeticionController {
     @GetMapping("/getPeticionByTitulo")
     public @ResponseBody Peticion getPeticionByTitulo(@RequestParam(name = "titulo") String titulo) {
         return getPeticionByTitulo(titulo);
-    }
+    }*/
 
     @GetMapping("/getPeticionesPendientes")
     public @ResponseBody Page<Peticion> getPeticionesPendientes(@PageableDefault(size = 5, page = 0) Pageable pageable, @SearchSpec Specification<Peticion> specs) {

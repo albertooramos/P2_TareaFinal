@@ -28,7 +28,8 @@ public class PeticionService {
 
     }
 
-    public Iterable<Peticion> getPeticionesByTema(String tema) {
+    //NO SE SI ME FUNCIONA ESTO BIEN
+    /*public Iterable<Peticion> getPeticionesByTema(String tema) {
         return peticionRepository.getPeticionByTema();
     }
 
@@ -38,7 +39,7 @@ public class PeticionService {
 
     public Iterable<Peticion> getPeticionesByAmbito(String ambito) {
         return peticionRepository.getPeticionByAmbito();
-    }
+    }*/
 
     public boolean addPeticion(Peticion peticion) {
         try {

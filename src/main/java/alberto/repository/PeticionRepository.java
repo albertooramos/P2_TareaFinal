@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PeticionRepository extends JpaRepository<Peticion, Integer>, JpaSpecificationExecutor<Peticion> {
-    Iterable<Peticion> getPeticionByAmbito();
+    /*Iterable<Peticion> getPeticionByAmbito();
      Iterable<Peticion> getPeticionByTema();
-     Iterable<Peticion> getPeticionByTitulo();
+     Iterable<Peticion> getPeticionByTitulo();*/
 }
