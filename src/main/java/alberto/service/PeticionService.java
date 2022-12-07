@@ -30,15 +30,15 @@ public class PeticionService {
 
     //NO SE SI ME FUNCIONA ESTO BIEN
     /*public Iterable<Peticion> getPeticionesByTema(String tema) {
-        return peticionRepository.getPeticionByTema();
+        return peticionRepository.getPeticionByTema(tema);
     }
 
     public Iterable<Peticion> getPeticionesByTitulo(String titulo) {
-        return peticionRepository.getPeticionByTitulo();
+        return peticionRepository.getPeticionByTitulo(titulo);
     }
 
     public Iterable<Peticion> getPeticionesByAmbito(String ambito) {
-        return peticionRepository.getPeticionByAmbito();
+        return peticionRepository.getPeticionByAmbito(ambito);
     }*/
 
     public boolean addPeticion(Peticion peticion) {
